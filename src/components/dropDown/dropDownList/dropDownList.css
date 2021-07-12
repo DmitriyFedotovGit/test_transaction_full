@@ -1,0 +1,118 @@
+.dropDownList__list-coins {
+  max-height: 150px;
+  overflow: auto;
+  height: auto;
+  background: #f6f7f8;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.dropDownList__list-coins ::-webkit-scrollbar {
+  display: none;
+}
+.dropDownList__list-coins {
+  -ms-overflow-style: none;
+}
+.dropDownList__icon-coin {
+  color: #282828;
+  border: none;
+  background: #f4f4f4;
+  width: 20px;
+  height: 20px;
+}
+.dropDownList__item-coins {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 15px;
+  outline: none;
+  height: 50px;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  transition: background-color 0.2s ease-out;
+  flex: 1;
+}
+@media screen and (min-width: 601px) {
+  .dropDownList__item-coins:hover {
+    background-color: #eaf1f7;
+  }
+}
+.dropDownList__button-close-coins {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: auto;
+  font-size: 13px;
+  color: #282828;
+  box-sizing: border-box;
+  background: #f4f4f4;
+  margin-top: 3px;
+}
+.dropDownList__ticker-coin {
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 3px;
+  font-size: 16px;
+  line-height: 23px;
+  padding-right: 5px;
+  color: #282828;
+}
+.dropDownList__input-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 15px;
+  outline: none;
+  border-bottom: 1px solid #e3ebef;
+  height: 50px;
+  background: #f4f4f4;
+  box-sizing: border-box;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.dropDownList__input-search-coins {
+  padding-left: 15px;
+  padding-top: 13px;
+  width: 100%;
+  outline: none;
+  border: #a7a7a7;
+  height: auto;
+  background: #f4f4f4;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+.dropDownList__input-search-coins::placeholder {
+  color: #80a2b6;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+.dropDownList__item-icon-area {
+  width: 30px;
+  margin-right: 12px;
+  height: 100%;
+  display: flex;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.dropDownList__fullname-coin {
+  width: 200px;
+  color: #80a2b6;
+  font-style: normal;
+  margin-top: 3px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}

@@ -1,0 +1,37 @@
+.app {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 36px;
+  box-sizing: border-box;
+}
+
+.app__button-reverse {
+  width: 50px;
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.app__dropDown-body {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 16px;
+  }
+  .app__dropDown-body {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .app__button-reverse {
+    margin: 20px;
+    transform: rotate(90deg);
+  }
+}

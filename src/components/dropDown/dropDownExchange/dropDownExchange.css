@@ -1,0 +1,81 @@
+.dropDownExchange_area-coin {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-left: 1px solid #e3ebef;
+  padding-right: 12px;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+.dropDownExchange__icon-coin {
+  color: #282828;
+  border: none;
+  background: #f4f4f4;
+  width: 20px;
+  height: 20px;
+}
+.dropDownExchange__transaction-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 15px;
+  outline: none;
+  height: 50px;
+  background: #f6f7f8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  flex: 1;
+  border: 1px solid #e3ebef;
+}
+.dropDownExchange__button-open-coins {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 100%;
+  font-size: 13px;
+  color: #282828;
+  box-sizing: border-box;
+  background: #f6f7f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dropDownExchange__transaction-input {
+  width: 100%;
+  padding-left: 15px;
+  outline: none;
+  border: #f6f7f8;
+  height: auto;
+  color: #282828;
+  background: #f6f7f8;
+  box-sizing: border-box;
+  margin-top: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+.dropDownExchange__transaction-input::placeholder {
+  color: #80a2b6;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+.dropDownExchange__ticker-coin {
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 3px;
+  font-size: 16px;
+  line-height: 23px;
+  padding-right: 5px;
+  color: #282828;
+}
