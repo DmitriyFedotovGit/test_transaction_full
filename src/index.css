@@ -17,8 +17,3 @@ code {
   justify-content: center;
   flex-direction: column;
 }
-@media screen and (max-width: 600px) {
-  #root {
-    justify-content: flex-start;
-  }
-}
