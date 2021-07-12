@@ -18,3 +18,9 @@
   line-height: 100%;
   color: #282828;
 }
+
+@media screen and (max-width: 600px) {
+  .header__h1 {
+    font-size: 40px;
+  }
+}
